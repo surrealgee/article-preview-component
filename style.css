@@ -154,4 +154,26 @@ body {
     .title {
         font-size: 20px;
     }
+
+    .share_container {
+        /* opacity: 1; */
+        height: 87px;
+        width: 268px;
+        border-radius: 0;
+        background-color: transparent;
+        /* border: 1px solid goldenrod; */
+        background-image: url(./images/combined-shape.svg);
+        background-position: 0 15px;
+        background-repeat: no-repeat;
+        padding: 0 3rem;
+        gap: 0.25rem;
+        justify-content: space-between;
+        position: absolute;
+        right:  -85px;
+        bottom: 65px;
+    }
+
+    #share-btn-active {
+        display: none;
+    }
 }
