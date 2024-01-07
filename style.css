@@ -20,6 +20,7 @@ body {
     background: #FFF;
     border-radius: 10px;
     box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
+    max-width: 350px;
     position: relative;
     width: 87.25%;
 }
@@ -127,4 +128,30 @@ body {
 
 .share_container .share {
     background-color: #6E8098;
+}
+
+/* Responsiveness */
+
+@media screen and (min-width: 800px) {
+    .card {
+        display: flex;
+        max-width: 730px;
+    }
+
+    .image {
+        min-height: 280px;
+        min-width: 285px;
+
+    }
+
+    .image img {
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 20px;
+    }
 }
