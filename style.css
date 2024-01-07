@@ -1,0 +1,92 @@
+/* Base */
+
+body {
+    align-items: center;
+    background-color: #ECF2F8;
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 100vh;
+    min-width: 300px;
+}
+
+/* Shared */
+
+/* Specific */
+
+.card {
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
+    width: 87.25%;
+}
+
+.image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.content {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 2.25rem 2rem 1.25rem;
+}
+
+.title {
+    color: #48556A;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+}
+
+.body {
+    color: #6E8098;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.122px;
+
+    margin-top: 0.75rem;
+}
+
+.author {
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: start;
+    gap: 1rem;
+    letter-spacing: 0.122px;
+}
+
+.author_avatar img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.name {
+    color: #48556A;
+    font-weight: 700;
+}
+
+.date {
+    color: #9DAEC2;
+    font-weight: 500;
+
+}
+
+.share {
+    align-items: center;
+    background-color: #ECF2F8;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    margin-left: auto;
+    width: 32px;
+}
