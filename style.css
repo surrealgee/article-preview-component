@@ -92,32 +92,23 @@ body {
     width: 32px;
 }
 
-.share:hover {
-    background-color: #6E8098;
-    color: #FFFFFF;
-}
-
 .share_container {
     align-items: center;
     background: #48556A;
     border-radius: 0px 0px 10px 10px;
     display: flex;
     gap: 1.25rem;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     position: absolute;
     width: 100%;
-    bottom: 0;
-    display: none;
+    opacity: 0;
+    transition: all 0.5s ease;
 }
- 
+
 .label {
     color: #9DAEC2;
-    font-family: Manrope;
     font-size: 13px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 20px;
-    /* 153.846% */
     letter-spacing: 5px;
     text-transform: uppercase;
 }
@@ -137,4 +128,3 @@ body {
 .share_container .share {
     background-color: #6E8098;
 }
-
